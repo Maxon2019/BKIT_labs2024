@@ -15,7 +15,7 @@ class BiSolver:
         D = b**2 - 4*a*c
         if D == 0.0:
             co = -b / (2.0*a)
-            res.append(co)
+            res.append(co) #коммент
             
         elif D > 0.0:
             D_sq = D**0.5
